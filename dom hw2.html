@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom hw2</title>
+    <script>
+        function change(){
+            document.getElementById("text1").style.color = "green";
+        }
+        function change1(){
+            document.getElementById("text2").style.color = "green";
+        }
+        function change2(){
+            document.getElementById("text3").style.color = "green";
+        }
+    
+    </script>
+</head>
+<body>
+    Name: <input type="text" id="text1" onfocusout="change()"><br>
+    Age: <input type="text" id="text2" onfocusout="change1()"><br>
+    Birthdate: <input type="text" id="text3" onfocusout="change2()"><br>
+</body>
+</html>
